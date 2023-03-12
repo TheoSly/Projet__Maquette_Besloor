@@ -1,0 +1,267 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/beacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 730px;
+}
+
+.wrapper{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 90px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.headerd {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.headerd li{
+    margin-right: 20px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    opacity: 30%;
+}
+
+.headerg {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: right;
+    
+}
+
+.headerg li{
+    margin-right: 20px;
+}
+
+.sousmenu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0;
+    left: 0;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.menu a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.color{
+    color: #D1915C;
+}
+
+a:hover{
+    color: #D1915C;
+}
+
+.titreh{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 80px;
+    color: white;
+}
+
+.titreh p::after{
+    content: "";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 4px;
+    background: #D1915C;
+}
+
+.paragrapheh p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    color: white;
+}
+
+.firstbouton{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D1915C;
+    font-size: 15px;
+    padding: 5px;
+    width: 250px;
+    height: 22px;
+    margin-top: 70px;
+}
+
+
+
+.firstbouton:hover{
+    background-color: #8a5f3c;
+}
+
+
+
+
+
+
+
+
+
+.titre{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline orange;
+    margin-bottom: 75px;
+
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+
+}
+
+article i{
+    vertical-align: top;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.list{
+    display: inline-block;
+    width: 200px;
+}
+
+.night article h2{
+    margin: 0;
+}
+
+.form a{
+    color: black;
+    text-decoration: none;
+}
+
+.bouton {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D1915C;
+    font-size: 15px;
+    padding: 5px;
+    width: 250px;
+
+}
+
+.bouton a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+
+
+
+
+.night2{
+    margin-top: 100px;
+    background-image: url(images/night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bl {
+    background: rgb(255, 255, 255);
+    width: 1000px;
+    padding: 24px;
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+
+.titre2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.titre2 :first-of-type {
+    text-decoration: underline orange;
+}
+
+.night2 ul{
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+.night2 i{
+    vertical-align: top;
+    color: orange;
+    border: 2px solid rgba(128, 128, 128, 0.376);
+    margin-right: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 7px;
+    
+}
+
+.list2{
+    display: inline-block;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.night2 article h2{
+    margin: 0;
+}
+
+.night2 a{
+    color: orange;
+    text-decoration: none;
+}
